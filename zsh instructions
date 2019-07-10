@@ -1,0 +1,4 @@
+install zsh
+download/install powerlevel 9k
+download/install powerlevel fonts
+copy .zshrc to home directory
