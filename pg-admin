@@ -1,0 +1,10 @@
+Install everything under Python2 for the time being.  
+
+yum install qt5-devel
+yum install gcc-g++
+yum install libffi-devel.s390x
+yum instal openssl-devel
+yum install php-pecl-pq.s390x
+yum install libpqxx-devel.s390x
+python36-psycopg2.s390x
+Follow README
