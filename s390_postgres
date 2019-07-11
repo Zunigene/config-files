@@ -2,3 +2,5 @@ yum install zlib readline zlib-devel readline-devel
 ldconfig -v
 Download postgres tarball
 follow instructions
+make world
+make install-world
