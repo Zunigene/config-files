@@ -1,10 +1,15 @@
 Install everything under Python2 for the time being.  
 
 yum install qt5-devel
-yum install gcc-g++
-yum install libffi-devel.s390x
+ gcc-g++
+libffi-devel.s390x
 yum instal openssl-devel
 yum install php-pecl-pq.s390x
 yum install libpqxx-devel.s390x
-python36-psycopg2.s390x
+add /usr/local/pgsql/lib to /etc/ld.so.conf
+python2-psycopg2.s390x
+npm.s390x
+npm install yarn -g
+firewall-cmd --permanent --zone=public --add-port=80/tcp
+firewall-cmd --reload
 Follow README
