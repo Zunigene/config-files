@@ -1,0 +1,5 @@
+Install proj4
+wget https://download.osgeo.org/proj/proj-6.1.1.tar.gz
+wget https://download.osgeo.org/proj/proj-datumgrid-1.8.zip
+wget https://download.osgeo.org/proj/proj-datumgrid-north-america-1.2.zip
+Follow documentation
