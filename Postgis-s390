@@ -2,4 +2,8 @@ Install proj4
 wget https://download.osgeo.org/proj/proj-6.1.1.tar.gz
 wget https://download.osgeo.org/proj/proj-datumgrid-1.8.zip
 wget https://download.osgeo.org/proj/proj-datumgrid-north-america-1.2.zip
-Follow documentation
+yum install libsqlite3x-devel.s390x
+wget https://github.com/Kitware/CMake/releases/download/v3.14.5/cmake-3.14.5.tar.gz
+Follow documentation to install
+git clone https://git.osgeo.org/gitea/geos/geos
+Follow instructions for cmakegmake
